@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutScore.Modelos", "FutScor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutScore.Data", "FutScore.Data\FutScore.Data.csproj", "{FE373D14-9C53-430B-9337-96F141E1EDA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutScore.API", "FutScore.API\FutScore.API.csproj", "{548D38FB-1FA1-4602-A661-8934E46685D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FE373D14-9C53-430B-9337-96F141E1EDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE373D14-9C53-430B-9337-96F141E1EDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE373D14-9C53-430B-9337-96F141E1EDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548D38FB-1FA1-4602-A661-8934E46685D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548D38FB-1FA1-4602-A661-8934E46685D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548D38FB-1FA1-4602-A661-8934E46685D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548D38FB-1FA1-4602-A661-8934E46685D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

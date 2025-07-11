@@ -1,0 +1,6 @@
+@FutScore.API_HostAddress = http://localhost:5127
+
+GET {{FutScore.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
