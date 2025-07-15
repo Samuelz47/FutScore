@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FutScore.Data.Migrations;
+namespace FutScore.Data;
 
 public class JogadorRepository : DAL<Jogador>
 {

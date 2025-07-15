@@ -1,6 +1,5 @@
-﻿using FutScore.API.DTOs.Jogador;
+﻿using FutScore.Contracts.Jogador;
 using FutScore.Data;
-using FutScore.Data.Migrations;
 using FutScore.Modelos;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.NetworkInformation;

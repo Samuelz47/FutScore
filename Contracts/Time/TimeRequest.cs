@@ -1,4 +1,4 @@
-﻿namespace FutScore.API.DTOs.Time;
+﻿namespace FutScore.Contracts.Time;
 
 public record TimeRequest(string Nome, int Forca);
 

@@ -1,5 +1,5 @@
 ﻿using FutScore.Modelos;
 
-namespace FutScore.API.DTOs.Jogador;
+namespace FutScore.Contracts.Jogador;
 
 public record JogadorRequest(string Nome, Posicao posicao);

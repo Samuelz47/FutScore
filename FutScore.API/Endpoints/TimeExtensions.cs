@@ -1,7 +1,7 @@
 ﻿using FutScore.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.NetworkInformation;
-using FutScore.API.DTOs.Time;
+using FutScore.Contracts.Time;
 using FutScore.Modelos;
 
 namespace FutScore.API.Endpoints;

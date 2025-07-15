@@ -1,6 +1,5 @@
 using FutScore.API.Endpoints;
 using FutScore.Data;
-using FutScore.Data.Migrations;
 using FutScore.Modelos;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,10 +12,13 @@ builder.Services.AddScoped(typeof(DAL<>), typeof(DAL<>));                   //Li
 builder.Services.AddScoped<TimeRepository>();
 builder.Services.AddScoped<CampeonatoRepository>();
 builder.Services.AddScoped<JogadorRepository>();
+builder.Services.AddScoped<TransferenciaService>();
 
 var app = builder.Build();
 
 app.AddEndpointsTimes();
+app.AddEndpointsJogadores();
+app.AddEndpointsTransferencias();
 
 if (app.Environment.IsDevelopment())
 {

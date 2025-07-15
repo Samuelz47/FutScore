@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Contracts\Contracts.csproj" />
     <ProjectReference Include="..\FutScore.Modelos\FutScore.Modelos.csproj" />
   </ItemGroup>
 
