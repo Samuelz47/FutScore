@@ -13,12 +13,14 @@ builder.Services.AddScoped<TimeRepository>();
 builder.Services.AddScoped<CampeonatoRepository>();
 builder.Services.AddScoped<JogadorRepository>();
 builder.Services.AddScoped<TransferenciaService>();
+builder.Services.AddScoped<PartidaRepository>();
 
 var app = builder.Build();
 
 app.AddEndpointsTimes();
 app.AddEndpointsJogadores();
 app.AddEndpointsTransferencias();
+app.AddEndpointsPartidas();
 
 if (app.Environment.IsDevelopment())
 {
