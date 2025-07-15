@@ -1,5 +1,6 @@
 using FutScore.API.Endpoints;
 using FutScore.Data;
+using FutScore.Data.Migrations;
 using FutScore.Modelos;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(DAL<>), typeof(DAL<>));                   //Linha para registrar DAL genérico
 builder.Services.AddScoped<TimeRepository>();
 builder.Services.AddScoped<CampeonatoRepository>();
+builder.Services.AddScoped<JogadorRepository>();
 
 var app = builder.Build();
 
